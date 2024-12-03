@@ -8,7 +8,7 @@ text-align: center;
 .hr{
 display: flex;
 justify-content: space-around;
-
+z-index: 10 ;
 }
 .navbar{
 position: absolute;
@@ -40,6 +40,7 @@ letter-spacing:1PX;
 font-family: Arial, Helvetica, sans-serif;
 font-weight: 800;
 text-transform: uppercase;
+z-index: 10;
 }
 
 body{
@@ -94,7 +95,7 @@ color:rgb(255, 255, 255,0.9);
 .form{
           position: absolute;
           border:2px solid ;
-          left: 450px;
+          left: 500px;
           top:600px;
           width:500px;
           height:350px;
